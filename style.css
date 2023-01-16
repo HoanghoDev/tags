@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(
+        to bottom, #CEAFDE, #ADD8D5
+    );
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.group{
+    background: #eee;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.title{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 500;
+}
+.title img{
+    width: 40px;
+    margin-right: 10px;
+}
+.des{
+    padding: 0 20px;
+    color: #555;
+}
+.tags-input{
+    margin: 20px;
+    border: 1px solid #b5c8c6;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+.tags-input ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags-input li{
+    padding: 5px;
+    margin: 0 5px 5px 0;
+    border: 1px solid #5556;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.tags-input li .remove{
+    width: 12px;
+    height: 12px;
+    background-image: url(remove.png);
+    background-size: cover;
+    margin-left: 10px;
+}
+.tags-input input{
+    order: 1;
+    border: none;
+    outline: none;
+}
+.removeAll{
+    padding: 20px;
+    text-align: right;
+}
+.removeAll button{
+    background-image: linear-gradient(
+        to bottom, #A12CCE, #7248CF
+    );
+    color: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
